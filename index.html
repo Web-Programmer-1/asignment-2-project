@@ -150,26 +150,33 @@
             </table>
         </div>
         <div class="bmi-input">
+          <div class="dis10">
             <h1>Calculate your BMI</h1>
             <p>edical screening tool that measures the ratio of your height to your weight <br>
                  to estimate the amount of body fat you have</p>
+          </div>
 
 
                  <form>
-                    <input type="number" placeholder="height/cm"> 
-                    <input type="number" placeholder="weight/kg"> <br>
-                    <input type="number" placeholder="Age"> 
-                    <select id="select1"> 
-                        <option value="Sex">Sex</option>
-                        <option value="Sex">Male</option>
-                        <option value="Sex">Female</option>
-                    </select> <br>
+                     <div class="input-flex1">
+                        <input type="number" placeholder="height/cm"> 
+                        <input type="number" placeholder="weight/kg"> 
+                     </div>
+                      <div class="input-flex2">
+                        <input type="number" placeholder="Age"> 
+                        <select id="select1"> 
+                            <option value="Sex">Sex</option>
+                            <option value="Sex">Male</option>
+                            <option value="Sex">Female</option>
+                        </select>
+                      </div>
                     <select id="select2"> 
                         <option value="Select and activity factor">Select and activity factor</option>
-                        <option value="Full Stack devloper">Full Stack devloper</option>
-                        <option value="Fronted web devloper">Fronted web devloper</option>
-                    </select> <br>
-                     <button id="click">Calculate</button>
+                        
+                    </select>
+                  <div class="calculate-button">
+                    <button id="click">Calculate</button>
+                  </div>
                     
 
                  </form>
