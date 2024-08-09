@@ -72,8 +72,10 @@ ul>li>a:hover{
     letter-spacing: 0%;
     color:  rgb(230, 83, 60);
     font-style: italic;
+ 
 
 }
+
 .nav-toggle{
   height: 12px;
   width: 44px;
@@ -82,6 +84,7 @@ ul>li>a:hover{
   border-radius: 5px;
   position: absolute;
   right: 100px;
+  display: none;
   
 }
 .nav-toggle:focus{
@@ -90,6 +93,7 @@ ul>li>a:hover{
 .toggle{
   background-color: black;
   padding: 30px 10px;
+
   
 }
 .nav-toggle>span{
@@ -558,6 +562,10 @@ form>#select2{
 .calc-container>.bmi-input>p{
   transform: translateY(-8px);
 }
+.team-container>div>img{
+  object-fit: cover;
+  filter: hue-rotate(120deg);
+}
 
 
 
@@ -614,9 +622,15 @@ form>#select2{
     max-width: 100%;
     overflow-x: hidden;
   }
+  .nav-toggle{
+    display: block;
+    transform: translateX(56px) translateY(-20px);
+  }
+
   .toggle>button{
     margin-left: 40px;
   }
+
   .workout-image>.card2{
     margin-left: 100px;
   }
